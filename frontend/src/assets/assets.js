@@ -27,23 +27,24 @@ import img2 from './img2.jpg'
 import img3 from './img3.jpg'
 import img4 from './img4.jpg'
 import img5 from './img5.jpg'
-import img6 from './img6.jpg'
+// import img6 from './img6.jpg'
 import img7 from './img7.jpg'
 import img8 from './img8.jpg'
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
 import img12 from './img12.jpg'
-import img13 from './img13.jpg'
+// import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
-import honey from './honey.jpeg'
-import arjit from './arjit.jpeg'
-import sonu from './sonu.jpeg'
+import honey from './honey.jpg'
+import arjit from './arjit.jpg'
+import sonu from './sonu.jpg'
+import hdf from './hdf.jpg'
 
 export const assets = {
     bell_icon,
@@ -72,7 +73,8 @@ export const assets = {
     clock_icon,
     sonu,
     arjit,
-    honey
+    honey,
+    hdf
 }
 
 export const albumsData = [
