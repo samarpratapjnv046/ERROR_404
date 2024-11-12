@@ -22,7 +22,8 @@ const addSong = async (req,res)=> {
         res.json({success:true , message:"song added "});
 
     } catch (error) {
-        res.json({success:false})
+        console.error("Error adding song:", error);
+        res.status(500).json({ success: false, message: "Failed to add song." });
     }
 }
 
