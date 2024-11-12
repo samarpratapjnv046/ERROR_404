@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import  { useState } from "react"
-=======
-import React, { useEffect, useState } from "react"
->>>>>>> 755a92326e14b16a4f23a18b16469691787fed5f
+import React, {useEffect,useState} from "react";
 import { assets } from "../assets/assets"
 import axios from "axios";
 import { url } from "../App";
