@@ -66,7 +66,7 @@ const AddSong = () => {
 
   useEffect(()=>{
     loadAlbumData();
-  })
+  },[])
 
 
   return loading ? (
@@ -105,7 +105,7 @@ const AddSong = () => {
       <p>Album</p>
       <select onChange={(e) => setAlbum(e.target.value)} defaultValue={album} className="bg-transparent outline-green-600 border-2 border-gray-400 p-2.5 w-[150px] ">
        <option value="none">None</option>
-       {albumData.map((item,index)=>(<option value={item.name} key={name}>{item.name}</option>))}
+       {albumData && albumData.length>0 && albumData.map((item,index)=>(<option value={item.name} key={index}>{item.name}</option>))}
       </select>
     </div>
     <button type="submit" className="text-base bg-black text-white py-2.5 px-14 cursor-pointer">ADD</button>
