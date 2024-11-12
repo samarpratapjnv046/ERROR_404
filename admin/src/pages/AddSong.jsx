@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import  { useState } from "react"
 import { assets } from "../assets/assets"
 import axios from "axios";
 import { url } from "../App";
@@ -12,7 +12,7 @@ const AddSong = () => {
   const [desc,setDesc] = useState("");
   const [album,setAlbum] = useState("none");
   const [loading,setLoading] = useState(false);
-  const [albumData,setAlbumData] =useState([]);
+  const [albumData,setAlbumData] = useState([]);
   
   const onSubmitHandler = async (e) => {
 
